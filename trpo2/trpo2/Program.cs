@@ -31,6 +31,13 @@ namespace trpo2
             Console.WriteLine("{1}", x);
             Console.ReadKey();
         }
+        static void div(float a, float b)
+        {
+            Console.Clear();
+            float x = a / b;
+            Console.WriteLine("{1}", x);
+            Console.ReadKey();
+        }
 
         static void Main(string[] args)
         {
