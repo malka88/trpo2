@@ -16,6 +16,14 @@ namespace trpo2
             Console.ReadKey();
         }
 
+        static void sub(float a, float b)
+        {
+            Console.Clear();
+            float x = a - b;
+            Console.WriteLine("{1}", x);
+            Console.ReadKey();
+        }
+
         static void Main(string[] args)
         {
             float a, b;
